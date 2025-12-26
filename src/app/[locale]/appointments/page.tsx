@@ -1,6 +1,6 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import { useTranslations } from "next-intl";
-import { Calendar, Clock, Phone } from "lucide-react";
+import { Calendar, Clock, Phone, Shield, CheckCircle } from "lucide-react";
 
 export default function AppointmentsPage() {
   const t = useTranslations("appointments");
@@ -13,7 +13,7 @@ export default function AppointmentsPage() {
             {t("title")}
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Book your appointment with our specialists
+            Book your appointment with our specialists - quick and easy
           </p>
         </div>
 
@@ -29,14 +29,14 @@ export default function AppointmentsPage() {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Phone className="h-5 w-5 text-pink-600 mr-3" />
+                  <Phone className="h-5 w-5 text-pink-600 mr-3 flex-shrink-0" />
                   <div>
                     <p className="font-medium">Phone</p>
                     <p className="text-gray-600">+251-911-223-344</p>
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <Calendar className="h-5 w-5 text-pink-600 mr-3" />
+                  <Calendar className="h-5 w-5 text-pink-600 mr-3 flex-shrink-0" />
                   <div>
                     <p className="font-medium">Working Hours</p>
                     <p className="text-gray-600">24/7 Emergency Service</p>
@@ -44,7 +44,7 @@ export default function AppointmentsPage() {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <Clock className="h-5 w-5 text-pink-600 mr-3" />
+                  <Clock className="h-5 w-5 text-pink-600 mr-3 flex-shrink-0" />
                   <div>
                     <p className="font-medium">Average Wait Time</p>
                     <p className="text-gray-600">15-30 minutes</p>
@@ -54,26 +54,38 @@ export default function AppointmentsPage() {
             </div>
 
             <div className="bg-pink-50 p-6 rounded-2xl border border-pink-100">
-              <h4 className="font-bold text-gray-900 mb-3">
+              <h4 className="font-bold text-gray-900 mb-4 flex items-center">
+                <Shield className="h-5 w-5 text-pink-600 mr-2" />
                 Before Your Visit
               </h4>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
                   Bring your medical records if available
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
                   Arrive 15 minutes before your appointment
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
                   Have your insurance information ready
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 flex-shrink-0" />
                   List any medications you're taking
                 </li>
+              </ul>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
+              <h4 className="font-bold text-gray-900 mb-4">Why Choose Us</h4>
+              <ul className="space-y-2 text-gray-600">
+                <li>• Same-day appointments available</li>
+                <li>• Experienced specialists</li>
+                <li>• Modern medical equipment</li>
+                <li>• Comfortable facilities</li>
+                <li>• Insurance accepted</li>
               </ul>
             </div>
           </div>
