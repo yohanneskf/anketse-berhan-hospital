@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "doctors": "Our Doctors",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "blog": "Health Tips",
+    "contact": "Contact",
+    "appointments": "Book Appointment"
+  },
+  "hero": {
+    "title": "Anketse Berhan Maternal & Child Medical Center",
+    "subtitle": "24 HOUR SERVICE - Quality Healthcare for Women and Children",
+    "tagline": "A.217°U/h / h - A.90dB",
+    "cta": "Book Appointment Now",
+    "emergency": "Emergency Contact"
+  },
+  "services": {
+    "title": "Our Medical Services",
+    "subtitle": "Comprehensive healthcare for women and children",
+    "opd": {
+      "title": "Outpatient Department (OPD)",
+      "items": [
+        "Pediatric growth & development checkup",
+        "Pediatric evaluation & treatment of childhood illnesses",
+        "Neonatal intensive care of Premature & sick neonates",
+        "Vaccination & Circumcision",
+        "Antenatal care",
+        "Gynecologic Annual checkup",
+        "Gynecologic Evaluation and treatment of illnesses",
+        "Family planning & infertility treatment",
+        "Gynecologic Urology evaluation & treatment"
+      ]
+    },
+    "ipd": {
+      "title": "Inpatient Department (IPD)",
+      "items": [
+        "Inpatient treatment and Follow up of pregnant & gynecologic illnesses",
+        "Maternity care & Delivery service",
+        "Major Obstetric & GYN, Surgery & Follow up",
+        "NICU & Pediatric care"
+      ]
+    },
+    "emergency": {
+      "title": "Emergency Services",
+      "items": [
+        "24/7 Emergency Room",
+        "Ambulance Service",
+        "Emergency Surgery",
+        "Critical Care"
+      ]
+    }
+  },
+  "doctors": {
+    "title": "Meet Our Specialists",
+    "subtitle": "Experienced medical professionals dedicated to your health",
+    "specializations": {
+      "pediatrics": "Pediatrics",
+      "gynecology": "Gynecology",
+      "neonatology": "Neonatology",
+      "surgery": "Surgery"
+    }
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "items": [
+      {
+        "title": "24/7 Service",
+        "description": "Round-the-clock medical care"
+      },
+      {
+        "title": "Modern Equipment",
+        "description": "State-of-the-art medical technology"
+      },
+      {
+        "title": "Expert Doctors",
+        "description": "Highly qualified specialists"
+      },
+      {
+        "title": "Emergency Care",
+        "description": "Immediate medical attention"
+      }
+    ]
+  },
+  "appointments": {
+    "title": "Book an Appointment",
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "date": "Preferred Date",
+      "time": "Preferred Time",
+      "service": "Service Type",
+      "message": "Additional Notes",
+      "submit": "Book Appointment",
+      "success": "Appointment booked successfully!"
+    },
+    "services": [
+      "General Consultation",
+      "Prenatal Care",
+      "Pediatric Checkup",
+      "Vaccination",
+      "Emergency"
+    ]
+  },
+  "testimonials": {
+    "title": "Patient Stories",
+    "subtitle": "What our patients say about us"
+  },
+  "blog": {
+    "title": "Health Tips & Updates",
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Addis Ababa, Ethiopia",
+    "phone": "+251-XXX-XXX-XXX",
+    "email": "info@anketseberhan.com",
+    "hours": "24/7 Open",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Anketse Berhan Maternal & Child Medical Center - Providing quality healthcare for women and children since 2010.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactInfo": "Contact Info",
+    "emergencyHotline": "Emergency Hotline",
+    "copyright": "© {year} Anketse Berhan Maternal & Child Medical Center. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
